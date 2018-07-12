@@ -9,8 +9,18 @@
     border: 0;
     cursor: pointer;
     outline:none;
+    z-index: 2;
 }
 
+.red-button {
+    background-color: red;
+}
+
+.white-button {
+    background-color: white;
+}
+
+/* filter icons */
 .filter-icon {
     position: absolute;
     width: 100%;
@@ -47,10 +57,5 @@
     margin-left: 0;
 }
 
-.red-button {
-    background-color: red;
-}
+/* end filter icons */
 
-.white-button {
-    background-color: white;
-}
