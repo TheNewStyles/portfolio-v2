@@ -1,0 +1,14 @@
+.sidenav a {
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgba(0,0,0,0.45);
+    text-transform: uppercase;
+    transition: color .15s linear;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sidenav a:hover {
+    color: white;
+}

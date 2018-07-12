@@ -31,31 +31,42 @@
 }
 
 .filter-line {
-    width: 10px;
-    height: 2px;
-    background-color: #FFF;
+    color: #FFF;
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 24px;
-    margin-left: -12px;
+    margin-left: -11px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 4em;
 }
 
 .line-1 {
-    top: 19px;
+    top: -19px;
 }
 
 .line-2 {
-    top: 24px;
-    width: 18px;
-    margin-left: -6px;
+    top: -8px;
 }
 
 .line-3 {
-    top: 29px;
-    width: 12px;
-    margin-left: 0;
+    top: 3px;
+}
+/* end of filter icons */
+
+/* close icon */
+.close-icon {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    z-index: 0;
+    color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    position: relative;
 }
 
-/* end filter icons */
-
+.close-icon-enabled {
+    z-index: 2;
+}
+/* end of close icon */
