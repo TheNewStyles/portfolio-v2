@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
         <footer>
             <ul>
-                <li id="profile-link"></li>
+                {/* <li id="profile-link"></li> */}
             </ul>
         </footer>
     );

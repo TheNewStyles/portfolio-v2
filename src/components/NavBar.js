@@ -30,7 +30,7 @@ class NavBar extends Component {
                 document.getElementById("nav").style.width = "50%";
                 document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
             } else {
-                document.getElementById("nav").style.width = "70%";
+                document.getElementById("nav").style.width = "100%";
                 document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
             }
         }
