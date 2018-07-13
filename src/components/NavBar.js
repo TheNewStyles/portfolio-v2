@@ -27,10 +27,8 @@ class NavBar extends Component {
         } else {
             if (x > 450) {
                 document.getElementById("nav").style.width = "50%";
-                document.getElementById("root").style.marginLeft = "50%";
             } else {
                 document.getElementById("nav").style.width = "100%";
-                document.getElementById("root").style.marginLeft = "100%";
             }
         }
 

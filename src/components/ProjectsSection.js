@@ -9,8 +9,16 @@ class ProjectsSection extends Component {
     return (
         <section id="projects">
             <h2>PROJECTS</h2>
-            <ProjectsTile />
-            <ProjectsTile />
+            <div id="project-tile-section">
+                <ProjectsTile />
+                <ProjectsTile />
+                <ProjectsTile />
+                <ProjectsTile />
+                <ProjectsTile />
+                <ProjectsTile />
+                <ProjectsTile />
+                <ProjectsTile />
+            </div>
         </section>
     );
   }

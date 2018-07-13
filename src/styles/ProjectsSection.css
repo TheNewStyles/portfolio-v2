@@ -1,9 +1,20 @@
 #projects {
-    display: flex;
-    flex-direction: column;
     margin-top: 100vh;
     align-items: center;
     color: red;
     height: 100vh;
 }
 
+#project-tile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 550px) {
+    #project-tile-section {
+        flex-direction: row;
+    }
+}
