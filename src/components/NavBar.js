@@ -46,7 +46,7 @@ class NavBar extends Component {
                 <nav id="nav" className="sidenav">
                     <ul>
                         <NavLink linkText="HOME" href="#welcome-section" />
-                        <NavLink linkText="PROJECTS" href="#projects-section" />
+                        <NavLink linkText="PROJECTS" href="#projects" />
                         <NavLink linkText="CONTACT" href="#contact-section" />
                     </ul>
                 </nav>

@@ -1,6 +1,22 @@
 .project-tile {
-    height: 300px;
-    width: 300px;
+    height: 100vh;
+    width: 100%;
     background-color: red;
-    margin: 1em;
+    background-image: url(../images/main-background.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-tile h4 {
+    margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+    .project-tile {
+        width: 25%;
+    }
 }

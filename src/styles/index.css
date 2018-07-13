@@ -2,7 +2,7 @@ html, body {
     font-size: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-family: 'VCR OSD Mono';
     font-size: 1em;
     line-height: 1.25;
 }
@@ -12,7 +12,7 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 }
 
 h1, h2, h3, h4 {
-    Font-Family: 'Roboto', 'Helvetica', sans-serif;
+    Font-Family: 'VCR OSD Mono';
 }
 
 h1 {

@@ -5,8 +5,12 @@ class WelcomeSection extends Component {
   render() {
     return (
         <section id="welcome-section">
-            <h1>TYLER PETERSON</h1>
-            <h2>DEVELOPER - DESIGNER - TESTER</h2>
+            <div className="welcome-container">
+                <h1>TYLER PETERSON</h1>
+                <h3>DEVELOPER</h3>
+                <h3>DESIGNER</h3>
+                <h3>TESTER</h3>
+            </div>
             <div className="scroll-downs">
                 <div className="mousey">
                     <div className="scroller"></div>
