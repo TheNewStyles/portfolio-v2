@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
+
 import '../styles/ProjectsSection.css';
+
+import ProjectsTile from './ProjectTile';
 
 class ProjectsSection extends Component {
   render() {
     return (
         <section id="projects">
-            <article className="project-tile" ></article>
-            <article className="project-tile" ></article>
-            <article className="project-tile" ></article>
+            <h2>PROJECTS</h2>
+            <ProjectsTile />
+            <ProjectsTile />
         </section>
     );
   }

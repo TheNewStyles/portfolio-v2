@@ -12,7 +12,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(129, 118, 118, 0.808);
-    color: white;
+    color: red;
     background-image: url(../images/main-background.jpg);
 }
 
@@ -27,7 +27,7 @@
 .mousey {
     height: 16px;
     padding: 5px 5px 0 5px;
-    border: 2px solid #fff;
+    border: 2px solid red;
     border-radius: 25px;
     opacity: 0.75;
     box-sizing: content-box;
@@ -37,7 +37,7 @@
     width: 3px;
     height: 5px;
     border-radius: 25%;
-    background-color: #fff;
+    background-color: red;
     animation-name: scroll;
     animation-duration: 2.2s;
     animation-timing-function: cubic-bezier(.15,.41,.69,.94);

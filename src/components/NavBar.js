@@ -24,14 +24,13 @@ class NavBar extends Component {
             x = w.innerWidth || e.clientWidth || g.clientWidth;
         if (isOpen) {
             document.getElementById("nav").style.width = "0";
-            document.body.style.backgroundColor = "white";
         } else {
             if (x > 450) {
                 document.getElementById("nav").style.width = "50%";
-                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                document.getElementById("root").style.marginLeft = "50%";
             } else {
                 document.getElementById("nav").style.width = "100%";
-                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                document.getElementById("root").style.marginLeft = "100%";
             }
         }
 
