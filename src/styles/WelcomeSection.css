@@ -1,4 +1,8 @@
 #welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -7,11 +11,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: blue;
+    background-color: rgba(129, 118, 118, 0.808);
     color: white;
     background-image: url(../images/main-background.jpg);
 }
 
+/* Scroller */
 .scroll-downs {
     position: absolute;
     left: 50%;
@@ -44,3 +49,5 @@
     10% { transform: translateY(0); opacity: 1; }
     100% { transform: translateY(15px); opacity: 0;}
 }
+
+/* End Scroller */
