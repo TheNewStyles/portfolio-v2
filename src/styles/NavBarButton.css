@@ -35,27 +35,27 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -11px;
-    font-family: 'Varela Round', sans-serif;
+    margin-left: -16px;
+    Font-Family: 'VCR OSD Mono';
     font-size: 4em;
 }
 
 .line-1 {
-    top: -19px;
+    top: -12px;
 }
 
 .line-2 {
-    top: -8px;
+    top: -2px;
 }
 
 .line-3 {
-    top: 3px;
+    top: 9px;
 }
 /* end of filter icons */
 
 /* close icon */
 .close-icon {
-    font-family: 'Varela Round', sans-serif;
+    Font-Family: 'VCR OSD Mono';
     font-size: 2em;
     font-weight: bold;
     z-index: 0;
