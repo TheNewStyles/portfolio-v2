@@ -35,7 +35,6 @@ class WelcomeSection extends Component {
     render() {
         return (
             <section id="welcome-section">
-                <div id="home" />
                 <div className="welcome-container">
                     <h1>TYLER PETERSON</h1>
                     <h3>DEVELOPER</h3>
