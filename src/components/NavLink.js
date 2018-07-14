@@ -5,7 +5,7 @@ import '../styles/NavLink.css';
 class NavLink extends Component {
   render() {
     return (
-        <li><a href={this.props.href}>{this.props.linkText}</a></li>
+        <li><a href={this.props.href} onClick={this.props.handleLinkClick} >{this.props.linkText}</a></li>
     );
   }
 }

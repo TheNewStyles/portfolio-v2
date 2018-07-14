@@ -1,7 +1,7 @@
 .project-tile {
     height: 100vh;
     width: 100%;
-    background-color: red;
+    background-color: var(--main-color);;
     background-image: url(../images/main-background.jpg);
     background-position: 50% 50%;
     background-size: cover;

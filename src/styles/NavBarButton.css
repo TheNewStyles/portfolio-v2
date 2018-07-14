@@ -9,11 +9,11 @@
     border: 0;
     cursor: pointer;
     outline:none;
-    z-index: 2;
+    z-index: 3;
 }
 
-.red-button {
-    background-color: red;
+.main-color-button {
+    background-color: var(--main-color);;
 }
 
 .white-button {
@@ -59,7 +59,7 @@
     font-size: 2em;
     font-weight: bold;
     z-index: 0;
-    color: red;
+    color: var(--main-color);;
     height: 100px;
     width: 100px;
     border-radius: 5px;

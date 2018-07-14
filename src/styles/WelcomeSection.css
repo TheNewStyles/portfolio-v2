@@ -1,30 +1,29 @@
 #welcome-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    z-index: -1;
     position: fixed;
     min-width: 100%;
     height: 100%;
     left: 0;
     top: 0;
 
-    background-image: url(../images/main-background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-color: rgba(129, 118, 118, 0.808);
-
-    color: red;
     text-transform: uppercase;
     text-align: left;
 }
 
+#canvas-layer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #fff;
+    z-index: -1;
+}
+
 .welcome-container {
-    margin-left: 10%;
-    margin-top: 30%;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    z-index: 40;
+    color: var(--main-color);
 }
 
 #welcome-section h1 {
@@ -34,6 +33,7 @@
     line-height: 1.15;
     margin-bottom: 0.5em;
     margin-top: 0.25em;
+    color: var(--main-color);
 }
 
 #welcome-section h3 {
@@ -42,6 +42,12 @@
 
 #welcome-section p {
     margin: 0;
+}
+
+#home {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /* Scroller */
@@ -55,7 +61,7 @@
 .mousey {
     height: 16px;
     padding: 5px 5px 0 5px;
-    border: 2px solid red;
+    border: 2px solid var(--main-color);;
     border-radius: 25px;
     opacity: 0.75;
     box-sizing: content-box;
@@ -65,7 +71,7 @@
     width: 3px;
     height: 5px;
     border-radius: 25%;
-    background-color: red;
+    background-color: var(--main-color);;
     animation-name: scroll;
     animation-duration: 2.2s;
     animation-timing-function: cubic-bezier(.15,.41,.69,.94);
@@ -79,3 +85,13 @@
 }
 
 /* End Scroller */
+
+#canvas {
+    height: 100vh;
+    left: 0;
+    opacity: .2;
+    position: fixed!important;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}

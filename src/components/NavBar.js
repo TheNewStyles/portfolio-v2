@@ -9,8 +9,9 @@ class NavBar extends Component {
     constructor(props){
         super(props);
         this.openCloseNavButton = this.openCloseNavButton.bind(this);
+        this.handleLinkClick = this.handleLinkClick.bind(this);
         this.state = {
-           buttonColor: "red-button",
+           buttonColor: "main-color-button",
            closeIcon: "",
            isOpen: false
         }
@@ -34,9 +35,13 @@ class NavBar extends Component {
 
         this.setState({
             isOpen: this.state.isOpen === false ? true : false,
-            buttonColor: this.state.buttonColor === "red-button" ? "white-button" : "red-button",
+            buttonColor: this.state.buttonColor === "main-color-button" ? "white-button" : "main-color-button",
             closeIcon: this.state.closeIcon === "" ? "close-icon-enabled" : ""
         });
+    }
+
+    handleLinkClick() {
+        console.log('clicked');
     }
 
     render() {
@@ -45,9 +50,9 @@ class NavBar extends Component {
                 <NavBarButton handleButtonClick={this.openCloseNavButton} backgroundColor={this.state.buttonColor} isNavMenuOpen={this.state.isOpen} closeIcon={this.state.closeIcon} />
                 <nav id="nav" className="sidenav">
                     <ul>
-                        <NavLink linkText="HOME" href="#welcome-section" />
+                        <NavLink linkText="HOME" href="#home" handleLinkClick={this.handleLinkClick}/>
                         <NavLink linkText="PROJECTS" href="#projects" />
-                        <NavLink linkText="CONTACT" href="#contact-section" />
+                        <NavLink linkText="CONTACT" href="#contact" />
                     </ul>
                 </nav>
             </header>
