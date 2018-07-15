@@ -11,6 +11,7 @@ class App extends Component {
   render() {
     return (
         <div className="App">
+            <div id="home"></div>
             <NavBar />
             <main className="main">
                 <WelcomeSection />

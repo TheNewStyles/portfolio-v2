@@ -40,8 +40,10 @@ class NavBar extends Component {
         });
     }
 
-    handleLinkClick() {
-        console.log('clicked');
+    handleLinkClick(e) {
+        const id = e.target.text.toString();
+        const element = document.getElementById(id.toLowerCase());
+        element.scrollIntoView();
     }
 
     render() {
@@ -51,8 +53,8 @@ class NavBar extends Component {
                 <nav id="nav" className="sidenav">
                     <ul>
                         <NavLink linkText="HOME" href="#home" handleLinkClick={this.handleLinkClick}/>
-                        <NavLink linkText="PROJECTS" href="#projects" />
-                        <NavLink linkText="CONTACT" href="#contact" />
+                        <NavLink linkText="PROJECTS" href="#projects" handleLinkClick={this.handleLinkClick} />
+                        <NavLink linkText="CONTACT" href="#contact" handleLinkClick={this.handleLinkClick} />
                     </ul>
                 </nav>
             </header>
