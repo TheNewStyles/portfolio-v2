@@ -6,6 +6,7 @@ import NavBar from './NavBar';
 import WelcomeSection from './WelcomeSection';
 import ProjectsSection from './ProjectsSection';
 import Footer from './Footer';
+import AboutMe from './AboutMe';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
             <NavBar />
             <main className="main">
                 <WelcomeSection />
+                <AboutMe />
                 <ProjectsSection />
             </main>
             <Footer />

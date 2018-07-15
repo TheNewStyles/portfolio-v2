@@ -18,20 +18,30 @@
     z-index: -1;
 }
 
+#canvas {
+    height: 100vh;
+    left: 0;
+    opacity: .125;
+    background-color: black;
+    position: fixed!important;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
 .welcome-container {
     position: absolute;
     z-index: 5;
     color: var(--main-color);
     left: 10%;
-    bottom: 10%;
+    bottom: 20%;
 }
 
 #welcome-section h1 {
     margin: 0;
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: bold;
     line-height: 1.15;
-    margin-bottom: 0.5em;
     margin-top: 0.25em;
     color: var(--main-color);
 }
@@ -81,12 +91,3 @@
 
 /* End Scroller */
 
-#canvas {
-    height: 100vh;
-    left: 0;
-    opacity: .2;
-    position: fixed!important;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-}
