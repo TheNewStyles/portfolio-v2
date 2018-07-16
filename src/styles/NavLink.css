@@ -12,3 +12,12 @@
 .sidenav a:hover {
     color: white;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {
+        font-size: 3em;
+        color: white;
+    }
+}

@@ -1,18 +1,28 @@
 .project-tile {
     height: 100vh;
     width: 100%;
-    background-color: var(--main-color);;
     background-image: url(../images/main-background.jpg);
     background-position: 50% 50%;
     background-size: cover;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    position: relative;
+    text-align: left;
+    background-color: var(--main-color);
 }
 
-.project-tile h4 {
+.project-tile h2 {
     margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.project-tile p {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: white;
+    font-size: 1.25em;
 }
 
 @media screen and (min-width: 600px) {
