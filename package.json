@@ -3,13 +3,15 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "babel-core": "^6.26.3",
         "canvas-prebuilt": "^1.6.5-prerelease.1",
         "enzyme-adapter-react-16": "^1.1.1",
         "react": "^16.4.1",
         "react-dom": "^16.4.1",
         "react-reveal": "^1.2.2",
         "react-scripts": "1.1.4",
-        "scrollreveal": "^3.4.0"
+        "scrollreveal": "^3.4.0",
+        "jest": "23.4.1"
     },
     "scripts": {
         "start": "react-scripts start",
