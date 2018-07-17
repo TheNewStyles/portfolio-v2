@@ -8,16 +8,20 @@ class WelcomeSection extends Component {
         this.createStatic();
     }
 
+    componentDidMount() {
+        this.createStatic();
+    }
+
     createStatic() {
         let canvas = document.createElement("canvas");
-        let c = canvas.getContext('2d');
+        let ctx = canvas.getContext('2d');
 
 		canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
         canvas.id = "canvas";
 
-		let imageData = c.createImageData(canvas.width, canvas.height);
-        document.body.prepend(canvas);
+		let imageData = ctx.createImageData(canvas.width, canvas.height);
+        document.body.appendChild(canvas);
 
 		(function loop() {
 
@@ -25,7 +29,7 @@ class WelcomeSection extends Component {
 		        imageData.data[i] = (Math.random() * 255)|0;
 		    }
 
-		    c.putImageData(imageData, 0, 0);
+		    ctx.putImageData(imageData, 0, 0);
 		    requestAnimationFrame(loop);
 
 		})();

@@ -12,12 +12,12 @@ class ProjectsSection extends Component {
             <div id="project-tile-section">
                 <ProjectsTile title="PROJECT 1" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"/>
                 <ProjectsTile title="PROJECT 2" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et "/>
-                <ProjectsTile title="PROJECT 3" />
-                <ProjectsTile title="PROJECT 4" />
-                <ProjectsTile title="PROJECT 5" />
-                <ProjectsTile title="PROJECT 6" />
-                <ProjectsTile title="PROJECT 7" />
-                <ProjectsTile title="PROJECT 8" />
+                <ProjectsTile title="PROJECT 3" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et " />
+                <ProjectsTile title="PROJECT 4" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et " />
+                <ProjectsTile title="PROJECT 5" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et " />
+                <ProjectsTile title="PROJECT 6" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et " />
+                <ProjectsTile title="PROJECT 7" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et "/>
+                <ProjectsTile title="PROJECT 8" info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et "/>
             </div>
         </section>
     );

@@ -1,18 +1,20 @@
 {
-  "name": "profile-v2",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-reveal": "^1.2.2",
-    "react-scripts": "1.1.4",
-    "scrollreveal": "^3.4.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "name": "profile-v2",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "canvas-prebuilt": "^1.6.5-prerelease.1",
+        "enzyme-adapter-react-16": "^1.1.1",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-reveal": "^1.2.2",
+        "react-scripts": "1.1.4",
+        "scrollreveal": "^3.4.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
 }
