@@ -21,8 +21,7 @@
 #canvas {
     height: 100vh;
     left: 0;
-    opacity: .125;
-    background-color: black;
+    opacity: .075;
     position: fixed!important;
     top: 0;
     width: 100%;
@@ -34,7 +33,7 @@
     z-index: 5;
     color: var(--main-color);
     left: 10%;
-    bottom: 20%;
+    top: 50%;
 }
 
 #welcome-section h1 {
@@ -66,9 +65,9 @@
 .mousey {
     height: 16px;
     padding: 5px 5px 0 5px;
-    border: 2px solid var(--main-color);;
+    border: 5px solid var(--main-color);;
     border-radius: 25px;
-    opacity: 0.75;
+    opacity: 0.8;
     box-sizing: content-box;
 }
 

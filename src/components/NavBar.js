@@ -44,6 +44,8 @@ class NavBar extends Component {
         const id = e.target.text.toString();
         const element = document.getElementById(id.toLowerCase());
         element.scrollIntoView();
+
+        this.openCloseNavButton(this.state.isOpen);
     }
 
     render() {

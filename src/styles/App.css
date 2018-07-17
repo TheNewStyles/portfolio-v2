@@ -1,5 +1,5 @@
 :root {
-    --main-color: #858282;
+    --main-color: #292f33;
 }
 
 .App {
@@ -13,6 +13,15 @@
 
 #root {
     width: 100%;
+}
+
+.Typist {
+    display: flex;
+    flex-direction: column;
+}
+
+.Cursor {
+    display: none;
 }
 
 @font-face {

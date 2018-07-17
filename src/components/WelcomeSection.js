@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Typist from 'react-typist';
 
 import '../styles/WelcomeSection.css';
 
@@ -41,9 +42,11 @@ class WelcomeSection extends Component {
             <section id="welcome-section">
                 <div className="welcome-container">
                     <h1>TYLER PETERSON</h1>
-                    <h3>DEVELOPER</h3>
-                    <h3>DESIGNER</h3>
-                    <h3>TESTER</h3>
+                    <Typist>
+                        <h3>DEVELOPER</h3>
+                        <h3>DESIGNER</h3>
+                        <h3>TESTER</h3>
+                    </Typist>
                 </div>
                 <div id="canvas-layer">
                     <div className="scroll-downs">

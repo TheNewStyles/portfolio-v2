@@ -10,3 +10,10 @@
     flex-direction: column;
     justify-content: center;
 }
+
+#about-me p{
+    padding: 20px;
+    font-size: 1.25em;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}

@@ -7,6 +7,7 @@
     transition: color .15s linear;
     transition: 0.3s;
     cursor: pointer;
+    font-family: 'Oswald', sans-serif;
 }
 
 .sidenav a:hover {
