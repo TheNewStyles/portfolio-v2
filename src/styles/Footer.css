@@ -13,6 +13,8 @@ footer ul {
     list-style-type: none;
     width: 80%;
     justify-content: space-evenly;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
 }
 
 footer a {

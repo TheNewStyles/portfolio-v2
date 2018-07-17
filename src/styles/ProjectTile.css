@@ -22,7 +22,7 @@
 
 .project-tile p {
     position: absolute;
-    bottom: 15%;
+    top: 60%;
     left: 5%;
     font-size: 1.25em;
     padding: 25px;
@@ -40,5 +40,13 @@
 @media screen and (min-width: 600px) {
     .project-tile {
         width: 25%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .project-image {
+        width: 100%;
+        top: 15%;
+        left: 0;
     }
 }
