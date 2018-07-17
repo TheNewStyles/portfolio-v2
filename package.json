@@ -1,5 +1,5 @@
 {
-    "name": "profile-v2",
+    "name": "portfolio-v2",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -23,7 +23,7 @@
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
-    "homepage": "https://thenewstyles.github.io/profile-v2",
+    "homepage": "https://thenewstyles.github.io/portfolio-v2",
     "devDependencies": {
         "gh-pages": "^1.2.0"
     }
