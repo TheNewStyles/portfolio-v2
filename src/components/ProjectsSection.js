@@ -11,14 +11,14 @@ class ProjectsSection extends Component {
         <section id="projects">
             {/* <h2>PROJECTS</h2> */}
             <div id="project-tile-section">
-                <ProjectsTile title="PROJECT 1" image={image} info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"/>
-                <ProjectsTile title="PROJECT 2" image={image} info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et "/>
-                <ProjectsTile title="PROJECT 3" image={image} info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et " />
-                <ProjectsTile title="PROJECT 4" image={image} info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et " />
-                <ProjectsTile title="PROJECT 5" image={image} info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et " />
-                <ProjectsTile title="PROJECT 6" image={image} info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et " />
-                <ProjectsTile title="Markdown Previewer" image={image} info="A Markdown previewer I created in React. Markdown is a lightweight markup language to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)"/>
-                <ProjectsTile title="React Docs Clone" image={image} info="While I was learning React I recreated the React documenation with React as a web design project."/>
+                <ProjectsTile title="JavaScript Calculator" image={image} info="A Calculator I built in React. It uses the shunting yard algorithm and reverse polish notation"/>
+                <ProjectsTile title="Drum Machine" image={image} info="A Drum Machine I built in React as part of the FreeCodeCamp certification - Front End Libraries "/>
+                <ProjectsTile title="Simon Game" image={image} info="A Simon Game I built with plain JavaScript." />
+                <ProjectsTile title="Markdown Previewer" image={image} info="A Markdown previewer I created in React. Preview your markdown as you type."/>
+                <ProjectsTile title="React Tech Docs Clone" image={image} info="While I was learning React I recreated the React documenation with React as a web design project." />
+                <ProjectsTile title="Random Quote Machine" image={image} info="A simple quote machine built in React for one of my favorite movies Pulp Fiction"/>
+                <ProjectsTile title="Product Landing Page Design" image={image} info="A non functional landing page to practice web design using flexbox" />
+                <ProjectsTile title="Survey Form Design" image={image} info="A non-functional survey form to practice web design using flex box" />
             </div>
         </section>
     );

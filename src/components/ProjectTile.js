@@ -12,19 +12,11 @@ class ProjectsTile extends Component {
     render() {
         return (
             <article className="project-tile">
-                {this.screenSize ? (
-                    <Fade>
-                        <h2>{this.props.title}</h2>
-                            <img src={this.props.image} className="project-image" alt=""/>
-                        <p>{this.props.info}</p>
-                    </Fade>
-                ) : (
-                    <Fade left>
-                        <h2>{this.props.title}</h2>
-                            <img src={this.props.image} className="project-image" alt=""/>
-                        <p>{this.props.info}</p>
-                    </Fade>
-                )}
+              <Fade>
+                  <h2>{this.props.title}</h2>
+                      <img src={this.props.image} className="project-image" alt=""/>
+                  <p>{this.props.info}</p>
+              </Fade>
             </article>
         );
     }

@@ -43,6 +43,7 @@
     line-height: 1.15;
     margin-top: 0.25em;
     color: var(--main-color);
+    padding-right: 5%;
 }
 
 #welcome-section h3 {
